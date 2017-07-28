@@ -1,0 +1,71 @@
+*{
+  font-family: arial, sans-serif;
+}
+/*COMMON*/
+.container{
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.row::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.col{
+  float: left;
+}
+/*HEADER*/
+header{
+  background: black;
+  color: white;
+  padding: 10px;
+}
+header h4{
+  font-size: 2rem;
+}
+header nav.col{
+  float: right;
+}
+header li{
+  display: inline-block;
+  font-size: 2rem;
+  margin: 5px;
+}
+header a{
+  color: white;
+  text-decoration: none;
+}
+/*CONTENT*/
+section.content{
+  margin top: 20px;
+}
+.container{
+  display: inline-block;
+}
+section.content .col{
+  width: 50%;
+  min-height: 100px;
+  font-size: 50px;
+}
+h1{
+  font-size: 30px;
+  top:20px;
+
+}
+span{
+  color: green;
+}
+
+
+}
+h1{
+  font-size: 30px;
+}
+span{
+  color: green;
+}
+p{
+  float: left;
+  font-size: 25px;
+}
